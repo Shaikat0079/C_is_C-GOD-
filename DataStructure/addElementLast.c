@@ -43,5 +43,6 @@ int main()
     current->link = NULL;
     head->link->link->link=current;
     addElement(head,5);
+    addElement(head,10);
     printLL(head);
 }
